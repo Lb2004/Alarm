@@ -6,7 +6,7 @@
 
 }
 body{
-    font-family:"Lora", Georgia, "Times New Roman", serif;
+    font-family:Georgia, "Times New Roman", serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +15,8 @@ body{
     background-color: #FAF7F2;
     color: #2C2C2C;
     gap: 20px;
+    
+
 
 }
 h1{
@@ -47,6 +49,18 @@ input[type="time"]:focus{
 
     min-width: 320px;
 }
+
+.alarmfiring{
+    animation: pulse 1.5s ease-in-out infinite;
+    }
+
+@keyframes pulse{
+        0%   {background-color:#FAF7F2;}
+        50%  {background-color:#FFB347;}
+        100% {background-color:#FAF7F2;}
+
+    }
+
 button{
     padding: 10px 24px;
     font-size: 1rem;
